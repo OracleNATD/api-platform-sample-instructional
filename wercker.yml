@@ -1,0 +1,8 @@
+box: apiaryio/dredd
+
+build:
+  steps:
+    - script:
+        name: Run Dredd
+        code: |
+          dredd
